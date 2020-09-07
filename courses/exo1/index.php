@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <?php phpinfo(); ?>
+    <?php include_once("exo.php"); ?>
 </body>
 </html>
