@@ -23,8 +23,8 @@ function dropUser(string $reason): void
 
 $DB = initDB();
 
-$inputEmail = htmlspecialchars($_GET["email"] ?? "");
-$inputPassword = htmlspecialchars($_GET["password"] ?? "");
+$inputEmail = $_POST["email"] ?? "";
+$inputPassword = $_POST["password"] ?? "";
 
 if (!$inputEmail || !$inputPassword)
 	dropUser("Inputs are invalid.");
@@ -39,7 +39,6 @@ if ($row)
 {
 	if (password_verify($inputPassword, $row["mdpAdmin"]))
 	{
-		print_r("verified <br>");
 		session_start();
 		$_SESSION["email"] = $inputEmail;
 		header("Location: admin.php");

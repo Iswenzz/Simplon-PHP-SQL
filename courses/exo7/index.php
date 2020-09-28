@@ -11,7 +11,7 @@
 	<title>Login Page</title>
 </head>
 <body class="d-flex justify-content-center align-items-center" style="width: 100vw; height: 100vh;">
-	<form class="container mx-auto" style="max-width: 30vw" action="login.php" method="GET">
+	<form class="container mx-auto" style="max-width: 30vw" action="login.php" method="POST">
 		<div class="my-2 form-group">
 			<label for="exampleInputEmail1">Email address</label>
 			<input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
