@@ -1,12 +1,12 @@
-[submodule "courses/tp1"]
-	path = courses/tp1
+[submodule "courses/tp1-cts"]
+	path = courses/tp1-cts
 	url = git@github.com:Iswenzz/Simplon-CTS
-[submodule "courses/tp2"]
-	path = courses/tp2
+[submodule "courses/tp2-strawpoll"]
+	path = courses/tp2-strawpoll
 	url = git@github.com:Iswenzz/Simplon-StrawPoll.git
-[submodule "courses/tp3"]
-	path = courses/tp3
+[submodule "courses/tp3-presence"]
+	path = courses/tp3-presence
 	url = git@github.com:Iswenzz/Simplon-Presence.git
-[submodule "courses/tp4"]
-	path = courses/tp4
+[submodule "courses/tp4-touiteur"]
+	path = courses/tp4-touiteur
 	url = git@github.com:Iswenzz/Simplon-Touiteur.git
